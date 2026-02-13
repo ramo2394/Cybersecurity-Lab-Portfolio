@@ -75,7 +75,5 @@ El servidor quedó configurado con una política de seguridad híbrida:
 * **Protección de Administrador (`ramo`):** Requiere obligatoriamente Password + MFA.
 * **Flexibilidad de Usuario (`victim`):** Se utilizó el parámetro `nullok` en el módulo PAM para permitir el acceso a usuarios que aún no han configurado su MFA, evitando el bloqueo total de la operativa.
 * **Seguridad de Red:** Firewall UFW activo limitando el tráfico exclusivamente al puerto 22/TCP.
-
-### Validación de Acceso Exitoso:
 ---
 **Laboratorio finalizado con éxito el 13 de febrero de 2026.**
