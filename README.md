@@ -20,8 +20,7 @@ Se realizaron varias iteraciones de ataque para validar la seguridad del servici
     * **Nota Técnica:** Durante esta fase se corrigió el uso del parámetro `-P` (mayúscula) necesario para cargar archivos de diccionario, frente al parámetro `-p` (minúscula) usado para una única contraseña.
 * **Resultado:** El acceso fue obtenido en **1.05 segundos**.
 
-> **[INSERTA AQUÍ TU IMAGEN: image<img width="853" height="265" alt="hydra_dicc_succes" src="https://github.com/user-attachments/assets/471539f3-6fb4-42f8-8c5f-fcd30750fb72" />
-_b26943.png]**
+> **[hydra_dicc_succes.png]**
 > *Captura del éxito de Hydra rompiendo la seguridad en tiempo récord.*
 
 ---
