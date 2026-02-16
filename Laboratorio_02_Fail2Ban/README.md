@@ -40,6 +40,6 @@ Al verificar el estado de la celda `sshd`, se confirma la captura de la IP ataca
 > **Nota de Seguridad**: Se observó que el sistema es altamente reactivo, bloqueando el tráfico a nivel de firewall (IPTables/NFTables) inmediatamente tras el tercer fallo.
 
 ---
-
-## 💡 Lecciones Aprendidas
-* **Gestión de Whitel
+💡 Lecciones Aprendidas
+* **Gestión de Whitelists**: Se identificó la necesidad de configurar la directiva `ignoreip` para evitar el auto-baneo del administrador ante errores legítimos de conexión.
+* **Persistencia**: Se validó que, aunque se reinicie el servicio, Fail2Ban mantiene el registro de las IPs baneadas si la base de datos está activa.
