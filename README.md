@@ -11,3 +11,9 @@ Configuración de seguridad en servidores Ubuntu 24.04 utilizando Google Authent
 ### 2. Prevención de Fuerza Bruta con Fail2Ban
 Detección y bloqueo automático de ataques de diccionario mediante análisis de logs.
 * 🔗 [Ver Laboratorio Detallado](./Laboratorio_02_Fail2Ban/README.md)
+
+
+## 🛠️ Tecnologías Utilizadas
+* **Sistemas Operativos:** Ubuntu Server / Debian.
+* **Herramientas de Seguridad:** Fail2Ban, Google Authenticator, Hydra.
+* **Redes:** SSH, Firewalls, Virtual Private Networks (VPN).
