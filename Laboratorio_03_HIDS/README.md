@@ -58,4 +58,3 @@ Al realizar múltiples intentos de acceso fallidos desde una IP externa, el Dash
 2. **Importancia de la Monitorización de Integridad:** Sin FIM, un atacante podría modificar scripts en `/etc` sin dejar rastro aparente en los logs estándar.
 3. **Resiliencia de Infraestructura:** El uso de **Swap** fue determinante para mantener la visibilidad de seguridad en un entorno de bajos recursos.
 
-EOF
