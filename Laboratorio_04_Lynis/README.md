@@ -18,7 +18,8 @@ En la primera ejecución de Lynis, el sistema presentaba vulnerabilidades críti
 * **Vulnerabilidades de software:** Presencia de paquetes desactualizados con fallos de seguridad conocidos.
 * **Configuración de red:** Firewall inactivo o sin reglas aplicadas.
 * **Acceso:** Ausencia de banners legales y límites de autenticación laxos.
-
+  
+![Primer test con Lynis](img/lynis1.png)
 ---
 
 ## 🔧 Fase 2: Parcheo y Fortalecimiento de Acceso (Index: 61)
@@ -43,6 +44,7 @@ En esta etapa, nos centramos en eliminar las vulnerabilidades de los paquetes y 
 * **Comandos:** `apt-listchanges`, `apt-listbugs`, `debsums`.
 * **¿Para qué sirven?:** Permiten verificar la integridad de los paquetes instalados y avisar de fallos críticos antes de realizar futuras instalaciones.
 
+![Segundo test con Lynis](img/lynis2.png)
 ---
 
 ## 🛡️ Fase 3: Monitorización y Seguridad de Red (Index: 64)
@@ -68,7 +70,38 @@ La fase final consistió en activar las defensas del sistema y asegurar que los 
 * **¿Qué es?:** Motor antivirus de código abierto.
 * **¿Para qué sirve?:** Permite realizar escaneos periódicos en busca de archivos maliciosos o troyanos, cumpliendo con uno de los requisitos de seguridad activa de Lynis.
 
+![Tercer test con Lynis](img/lynis3.png)
 ---
 
-## 🏁 Conclusión
-El proceso de Hardening permitió elevar el nivel de seguridad del servidor en un **14%**, pasando de un estado vulnerable a un entorno controlado, monitorizado y con políticas de acceso restrictivas.
+---
+
+## 🏁 Conclusión: Evaluación del Estado de Seguridad
+
+El proceso de Hardening ejecutado ha permitido transformar el servidor de un estado de vulnerabilidad crítica a un entorno con una configuración profesional y robusta.
+
+* **Resultados Métricos:** Se ha logrado un incremento del **14%** en el **Hardening Index**, pasando de un **56** inicial a un **64** final.
+* **Mitigación de Riesgos:** La resolución de los **84 paquetes vulnerables** y la actualización del **Kernel** han eliminado los vectores de ataque más inmediatos.
+* **Control de Acceso y Red:** Se ha pasado de un firewall inactivo a uno restrictivo (**UFW**) y se ha blindado el servicio **SSH** limitando los intentos de autenticación.
+* **Auditoría Activa:** La implementación de `auditd` y `ClamAV` garantiza la trazabilidad de eventos del kernel y el escaneo proactivo de amenazas.
+
+---
+
+## 🚀 Roadmap: Hacia el Nivel de "Alta Seguridad" (>71 pts)
+
+Para superar el actual **64** y alcanzar la excelencia técnica (niveles superiores a 70 puntos), se proponen los siguientes pasos estratégicos:
+
+#### **1. Fortificación del Kernel y Sistema**
+* **Implementar LSM (AppArmor/SELinux):** Configurar perfiles de control de acceso obligatorio para restringir las acciones de cada proceso.
+* **Cifrado de Datos (LUKS):** Asegurar que el almacenamiento esté cifrado en reposo para proteger la información ante accesos físicos.
+
+#### **2. Autenticación y Acceso Robusto**
+* **Doble Factor de Autenticación (2FA):** Añadir una capa extra de seguridad al acceso por SSH mediante tokens temporales.
+* **Restricción de Herramientas de Compilación:** Limitar el acceso a `gcc` para evitar que un atacante compile código malicioso localmente.
+
+#### **3. Monitorización de Integridad Continua (Próxima Fase)**
+* **Despliegue de HIDS Avanzado:** Implementar herramientas como **AIDE** o una instancia optimizada de **Wazuh** para detectar cambios en archivos críticos en tiempo real.
+* **Centralización de Logs:** Exportar registros a un servidor externo para garantizar la inmutabilidad de la evidencia ante un incidente.
+
+
+
+---
