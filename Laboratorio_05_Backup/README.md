@@ -95,3 +95,12 @@ Para validar el sistema, se realizó un simulacro de borrado accidental del arch
 ---
 
 **Estado Final**: El servidor es ahora robusto, autogestionado y capaz de alertar ante incidentes de seguridad o mantenimiento.
+---
+
+### 📸 Evidencia de Funcionamiento (Telegram Dashboard)
+
+A continuación se muestra una captura real de las notificaciones push recibidas en el dispositivo móvil, confirmando la integración exitosa de los scripts de backup y el sistema de alertas de acceso SSH:
+
+![Captura de Notificaciones del Bot de Telegram](URL_DE_TU_FOTO_AQUÍ)
+
+*En la imagen se pueden observar las alertas de "BACKUP OK" y los avisos de "ACCESO DETECTADO" con la IP de origen.*
