@@ -94,13 +94,21 @@ Para validar el sistema, se realizó un simulacro de borrado accidental del arch
 
 ---
 
-**Estado Final**: El servidor es ahora robusto, autogestionado y capaz de alertar ante incidentes de seguridad o mantenimiento.
----
 
 ### 📸 Evidencia de Funcionamiento (Telegram Dashboard)
 
-A continuación se muestra una captura real de las notificaciones push recibidas en el dispositivo móvil, confirmando la integración exitosa de los scripts de backup y el sistema de alertas de acceso SSH:
+A continuación, se muestra una captura real de las notificaciones push recibidas en el dispositivo móvil, confirmando la integración exitosa de los scripts de backup y el sistema de alertas de acceso SSH:
 
-![Captura de Notificaciones del Bot de Telegram](URL_DE_TU_FOTO_AQUÍ)
+<p align="center">
+  <img src="https://github.com/ramo2394/Cybersecurity-Lab-Portfolio/blob/main/Laboratorio_05_Backup/img/bot.png" alt="Captura de Notificaciones del Bot de Telegram" width="40%" height="auto">
+</p>
 
-*En la imagen se pueden observar las alertas de "BACKUP OK" y los avisos de "ACCESO DETECTADO" con la IP de origen.*
+*<p align="center">En la imagen se observan las alertas de "BACKUP OK" y los avisos de "ACCESO DETECTADO" con la IP de origen.</p>*
+
+---
+
+### 🏁 Estado Final del Proyecto
+**Servidor Optimizado y Resiliente**: El servidor es ahora robusto, autogestionado y capaz de alertar ante incidentes de seguridad o mantenimiento.
+
+---
+
