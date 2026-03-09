@@ -1,5 +1,5 @@
-cat << 'EOF' > Laboratorio3_HIDS_Completo.md
-# Laboratorio 3: Implementación de HIDS y Detección de Intrusiones con Wazuh
+
+# 🛡️ Laboratorio 3: Implementación de HIDS y Detección de Intrusiones con Wazuh
 
 ## 1. 🏗️ Arquitectura y Preparación del Sistema
 En este laboratorio se ha desplegado un sistema de monitorización basado en la arquitectura **Wazuh (SIEM/HIDS)** sobre un entorno virtualizado.
