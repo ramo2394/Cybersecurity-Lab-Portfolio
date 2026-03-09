@@ -1,6 +1,5 @@
 # 🛡️ Laboratorio 02: Protección contra Fuerza Bruta con Fail2Ban
 
-## 📝 Descripción
 Implementación y configuración de un sistema de prevención de intrusiones (IPS) utilizando **Fail2Ban** en un entorno Linux. El objetivo es mitigar ataques de fuerza bruta sobre el servicio SSH mediante el bloqueo dinámico de direcciones IP sospechosas.
 
 ---
