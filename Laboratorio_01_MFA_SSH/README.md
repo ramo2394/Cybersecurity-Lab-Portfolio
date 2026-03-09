@@ -1,6 +1,3 @@
-# Cybersecurity-Lab-Portfolio
-Laboratorios prácticos de ciberseguridad, defensa de servidores y análisis de vulnerabilidades.
-
 # 🛡️ Laboratorio de Ciberseguridad: Auditoría y Hardening SSH
 
 Este repositorio documenta un laboratorio completo de seguridad ofensiva y defensiva sobre un servidor Linux (Ubuntu 24.04). El objetivo fue demostrar cómo una configuración débil es vulnerable y cómo implementar medidas de mitigación profesionales.
