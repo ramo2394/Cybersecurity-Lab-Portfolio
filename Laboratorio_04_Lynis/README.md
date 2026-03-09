@@ -1,4 +1,4 @@
-# Laboratorio 4: Auditoría de Seguridad y Hardening con Lynis
+# 🛡️ Laboratorio 4: Auditoría de Seguridad y Hardening con Lynis
 
 Este laboratorio describe el proceso de endurecimiento (hardening) de un servidor Linux, utilizando la herramienta de auditoría **Lynis**. A través de tres fases de mejora, se logró elevar el **Hardening Index de 56 a 64**.
 
